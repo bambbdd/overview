@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: overview-be
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/overview_db
+    username: overview_user
+    password: overview_password
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+server:
+  port: 8080

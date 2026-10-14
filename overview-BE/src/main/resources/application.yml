@@ -20,3 +20,6 @@ spring:
 server:
   port: 8080
 
+ecos:
+  api:
+    key: "MNF9CAFWHB91I73HD01H"

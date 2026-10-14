@@ -9,7 +9,7 @@ from urllib.parse import quote
 from urllib.request import urlopen
 
 
-YOUR_API_KEY = "MNF9CAFWHB91I73HD01H"  # 발급받은 ECOS API 키로 변경
+YOUR_API_KEY = "YOUR_API_KEY"  # 발급받은 ECOS API 키로 변경
 BASE_URL = "https://ecos.bok.or.kr/api"
 STAT_CODE = "722Y001"
 ITEM_CODE = "0101000"

@@ -6,9 +6,9 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import org.springframework.cglib.core.Local;
 
 import java.time.LocalDate;
 
@@ -32,6 +32,7 @@ public class EconomicIndicator {
     private LocalDate baseDate; // 기준 일자
 
     // 데이터 저장용 생성자
+    @Builder
     public EconomicIndicator(String indicatorType, Double value, LocalDate baseDate) {
         this.indicatorType = indicatorType;
         this.value = value;

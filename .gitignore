@@ -12,6 +12,7 @@ out/
 *.log
 
 # IDE & OS
+.run/
 .idea/
 .vscode/
 *.swp
